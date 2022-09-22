@@ -7,7 +7,7 @@ WORKDIR /var/www/app
 
 COPY package*.json ./
 
-RUN npm install && npm cache clean --force
+RUN npm install
 
 ENV PATH=/var/www/app/node_modules/.bin:$PATH
 
