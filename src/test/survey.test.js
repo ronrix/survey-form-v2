@@ -21,4 +21,8 @@ describe("Survey Model", function(){
 
         expect(result).to.equal("Error! Captcha input doesn't matched.");
     });
+
+    it('Should return 1 + 1 = 2', () => {
+        expect(1+1).to.equal(2);
+    });
 });
