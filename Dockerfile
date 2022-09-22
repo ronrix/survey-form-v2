@@ -5,7 +5,7 @@ RUN mkdir -p /var/www/app
 
 WORKDIR /var/www/app
 
-COPY package*.json ./
+COPY package.json ./
 
 RUN npm install && npm cache clean --force
 
